@@ -28,6 +28,7 @@ There are multiple configs that enable all rules in this category: `plugin:es-x/
 | [es-x/no-logical-assignment-operators](./no-logical-assignment-operators.md) | disallow logical assignment operators. | 🔧 |
 | [es-x/no-numeric-separators](./no-numeric-separators.md) | disallow numeric separators. | 🔧 |
 | [es-x/no-promise-any](./no-promise-any.md) | disallow `Promise.any` function and `AggregateError` class. |  |
+| [es-x/no-regexp-unicode-property-escapes-2021](./no-regexp-unicode-property-escapes-2021.md) | disallow the new values of RegExp Unicode property escape sequences in ES2021. |  |
 | [es-x/no-string-prototype-replaceall](./no-string-prototype-replaceall.md) | disallow the `String.prototype.replaceAll` method. |  |
 | [es-x/no-weakrefs](./no-weakrefs.md) | disallow the `WeakRef` and `FinalizationRegistry` class. |  |
 
