@@ -4,9 +4,15 @@
  */
 "use strict"
 
+const semver = require("semver")
 const RuleTester = require("../../tester")
 const rule = require("../../../lib/rules/no-regexp-unicode-property-escapes-2021.js")
 
+if (semver.lt(RuleTester.eslintVersion, "8.0.0")) {
+    //eslint-disable-next-line no-console
+    console.log("Skip the tests of no-regexp-unicode-property-escapes-2021.")
+    return
+}
 if (!RuleTester.isSupported(2021)) {
     //eslint-disable-next-line no-console
     console.log("Skip the tests of no-regexp-unicode-property-escapes-2021.")
