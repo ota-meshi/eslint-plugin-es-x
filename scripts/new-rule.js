@@ -95,4 +95,14 @@ This rule reports ??? as errors.
     cp.execSync(`code "${ruleFile}"`)
     cp.execSync(`code "${testFile}"`)
     cp.execSync(`code "${docFile}"`)
+
+    const yellow = "\u001b[33m"
+
+    const reset = "\u001b[0m"
+
+    console.log(`Test Command:
+
+${yellow}npx mocha "tests/**/${ruleId}.js" --reporter dot --timeout 60000${reset}
+
+`)
 })(process.argv[2])

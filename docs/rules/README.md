@@ -45,6 +45,7 @@ There are multiple configs that enable all rules in this category: `plugin:es-x/
 | [es-x/no-nullish-coalescing-operators](./no-nullish-coalescing-operators.md) | disallow nullish coalescing operators. |  |
 | [es-x/no-optional-chaining](./no-optional-chaining.md) | disallow optional chaining. |  |
 | [es-x/no-promise-all-settled](./no-promise-all-settled.md) | disallow `Promise.allSettled` function. |  |
+| [es-x/no-regexp-unicode-property-escapes-2020](./no-regexp-unicode-property-escapes-2020.md) | disallow the new values of RegExp Unicode property escape sequences in ES2020. |  |
 | [es-x/no-string-prototype-matchall](./no-string-prototype-matchall.md) | disallow the `String.prototype.matchAll` method. |  |
 
 ## ES2019
