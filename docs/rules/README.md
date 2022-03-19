@@ -17,6 +17,7 @@ There are multiple configs that enable all rules in this category: `plugin:es-x/
 | [es-x/no-object-hasown](./no-object-hasown.md) | disallow the `Object.hasOwn` method. |  |
 | [es-x/no-private-in](./no-private-in.md) | disallow `#x in obj`. |  |
 | [es-x/no-regexp-d-flag](./no-regexp-d-flag.md) | disallow RegExp `d` flag. |  |
+| [es-x/no-regexp-unicode-property-escapes-2022](./no-regexp-unicode-property-escapes-2022.md) | disallow the new values of RegExp Unicode property escape sequences in ES2022. |  |
 | [es-x/no-top-level-await](./no-top-level-await.md) | disallow top-level `await`. |  |
 
 ## ES2021
@@ -28,6 +29,7 @@ There are multiple configs that enable all rules in this category: `plugin:es-x/
 | [es-x/no-logical-assignment-operators](./no-logical-assignment-operators.md) | disallow logical assignment operators. | 🔧 |
 | [es-x/no-numeric-separators](./no-numeric-separators.md) | disallow numeric separators. | 🔧 |
 | [es-x/no-promise-any](./no-promise-any.md) | disallow `Promise.any` function and `AggregateError` class. |  |
+| [es-x/no-regexp-unicode-property-escapes-2021](./no-regexp-unicode-property-escapes-2021.md) | disallow the new values of RegExp Unicode property escape sequences in ES2021. |  |
 | [es-x/no-string-prototype-replaceall](./no-string-prototype-replaceall.md) | disallow the `String.prototype.replaceAll` method. |  |
 | [es-x/no-weakrefs](./no-weakrefs.md) | disallow the `WeakRef` and `FinalizationRegistry` class. |  |
 
@@ -45,6 +47,7 @@ There are multiple configs that enable all rules in this category: `plugin:es-x/
 | [es-x/no-nullish-coalescing-operators](./no-nullish-coalescing-operators.md) | disallow nullish coalescing operators. |  |
 | [es-x/no-optional-chaining](./no-optional-chaining.md) | disallow optional chaining. |  |
 | [es-x/no-promise-all-settled](./no-promise-all-settled.md) | disallow `Promise.allSettled` function. |  |
+| [es-x/no-regexp-unicode-property-escapes-2020](./no-regexp-unicode-property-escapes-2020.md) | disallow the new values of RegExp Unicode property escape sequences in ES2020. |  |
 | [es-x/no-string-prototype-matchall](./no-string-prototype-matchall.md) | disallow the `String.prototype.matchAll` method. |  |
 
 ## ES2019
