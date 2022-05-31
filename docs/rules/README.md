@@ -14,6 +14,7 @@ There are multiple configs that enable all rules in this category: `plugin:es-x/
 | [es-x/no-array-string-prototype-at](./no-array-string-prototype-at.md) | disallow the `{Array,String}.prototype.at()` methods. |  |
 | [es-x/no-class-fields](./no-class-fields.md) | disallow class fields. |  |
 | [es-x/no-class-static-block](./no-class-static-block.md) | disallow class static block. |  |
+| [es-x/no-error-cause](./no-error-cause.md) | disallow Erroc Cause. |  |
 | [es-x/no-object-hasown](./no-object-hasown.md) | disallow the `Object.hasOwn` method. |  |
 | [es-x/no-private-in](./no-private-in.md) | disallow `#x in obj`. |  |
 | [es-x/no-regexp-d-flag](./no-regexp-d-flag.md) | disallow RegExp `d` flag. |  |
